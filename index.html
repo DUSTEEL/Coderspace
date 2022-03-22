@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Almacén La Esquina - ¡mayoreo, el mejor precio y rapidito!</title>
+</head>
+<!--Comienza Body-->
+<body>
+    <!--Comienza encabezado-->
+    <header>
+        <!--inicia nav--> 
+        <nav>   
+         <a href="./index.html" ><img src="img/home.png" alt="ir al inicio" width="50PX" height="50PX"></a>
+         <a href="./index.html" ><img src="img/logo.jpg" alt="Logotipo oficial"></a>
+         <ul>
+          <li> <a href="./HTML/tienda.html" >TIENDA</a></li>
+          <li>  <a href="./HTML/ofertas.html" >OFERTAS</a></li>
+          <li>  <a href="./HTML/sucursales.html" >SUCURSALES></a></li>
+          <li>  <a href="#info" >+ INFO</a></li>
+        </ul>
+        </nav>
+        <!-- termina nav-->
+    </header>
+    <!--Termina encabezado-->
+    <img src="img/RIEL.jpg" alt="listado de imágenes sobre almacen">
+    <main>
+		<section>
+			<div>
+                <h2 style="color:#444444;">PRODUCTOS</h2>
+                <a href="./HTML/productos.html"> <img src="./IMG/LISTADO PRODUCTOS.jpg" alt="Conoce nuestros artículos a la venta"></a>
+                <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, alias. Iusto eaque vero enim totam labore neque earum adipisci eius accusamus? Adipisci vel a numquam, illo quam cum reiciendis ipsa.
+                <h2 style="color: #444444;" >TIENDA</h2>
+                <a href="./HTML/tienda.html"><img src="./IMG/TIENDA.jpg" alt="Realiza tu pedido!"></a>
+                <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, ratione impedit numquam nam voluptate ut, non quis ea dolorem temporibus hic sapiente doloribus deserunt inventore harum odio quo, unde repudiandae.
+            </div>
+        </section>
+		<section>
+			<div>
+				<h2 style="color:#444444;">Contacto</h2>
+                <img src="./IMG/memo.png">
+				<form action="envio.php" method="post" id="info">
+					<fieldset>
+						<legend>Rellena el Formulario</legend>
+						<label for="nombre">Nombre y apellido</label>
+						<input type="text" placeholder="Razón Social ó Persona Física" name="nombre" id="nombre"> <br>
+						<label for="email">Email</label>
+						<input type="email" placeholder="usuario@correo.com" name="email" id="email">
+                        <label for="Movil">Número de Celular</label>
+						<input type="Movil" placeholder="6140010101" name="Movil" id="Movil">
+					</fieldset>
+					<fieldset>
+						<legend>Info de tu negocio</legend>
+                        Además de Abarrotes, ¿Que Productos y/o servicios ofreces?:
+                        <br>
+                        <input type="checkbox" value="Carnicería" id="Carnicería" name="Carnicería">
+                        <label for="Carnicería">Carnicería</label>
+						<br>
+                        <input type="checkbox" value="Panadería" name="Panadería" id="Panadería">
+						<label for="Panadería">Panadería</label>
+						<br>
+                        <input type="checkbox" value="Cocina" name="Cocina" id="Cocina">
+						<label for="Cocina">Cocina</label>						
+                        <br>
+                        <input type="checkbox" value="Tortillería" name="Tortillería" id="Tortillería">
+						<label for="Tortillería">Tortillería</label>
+						<br>
+                        ¿Cual es tu forma de hacer pedido preferida?:
+                        <br>
+                        <input type="radio" name="Teléfono" value="Teléfono" id="Teléfono">
+						<label for="Teléfono">Teléfono</label>
+						<input type="radio" name="portal" value="portal" id="portal">
+						<label for="portal">Portal Web</label>
+						<br>
+						¿Cual es tu forma preferida de adquirir tu mercancía?:
+						<br>
+                        <input type="radio" name="cterecoge" value="cterecoge" id="cterecoge">
+						<label for="cterecoge">Recoger el pedido en sucursal</label>
+						<input type="radio" name="envio" value="envio" id="envio">
+						<label for="portal">Envío a Domicilio</label>
+
+                        <br>
+                        ¿En Que zona te encuentras de la Ciudad?:
+						<select name="localidad" id="localidad">
+							<option value="Centro">Centro</option>
+							<option value="SUR">Sur</option>
+							<option value="Norte">Norte </option>
+                            <option value="Oriente">Oriente </option>
+                            <option value="Poniente">Norte </option>
+						</select>
+					
+					<br><br>
+					<label for="mensaje">Deja tu mensaje</label><br>
+					<textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="deja tu mensaje"></textarea>
+					<br>
+					<input type="submit" value="Enviar">
+					<input type="reset" value="Cancelar">
+					<input type="button" value="no hace nada">
+                </fieldset>
+				</form>
+			</div>
+        		<!-- ends form-->
+                <br>
+					</section>
+    </main>
+    <footer>
+        <h3>Siguenos en nuestras redes</h3>
+		<a href="https://facebook.com" target="_blank">
+			<img src="img/facebook.png" alt="Siguenos en facebook">
+		</a>
+		<a href="https://twitter.com" target="_blank">
+			<img src="img/twitter.png" alt="Siguenos en twitter">
+		</a>
+        <br>
+        
+    </footer>
+            </body>
+
+<!--Termina Body-->
+
+</html>
